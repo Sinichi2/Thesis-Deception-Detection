@@ -1,3 +1,3 @@
 import cv2
-from loader import loader_many
-
+import torch
+from torchvision import models
