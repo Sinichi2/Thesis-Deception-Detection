@@ -1,0 +1,8 @@
+tiktoken 
+whisperx
+opencv-python
+mediapipe
+torch 
+torchvideo 
+torchaudio 
+tf-slim 
