@@ -8,3 +8,4 @@ torchaudio
 tf-slim 
 sentence-transformers
 transformers
+uv
