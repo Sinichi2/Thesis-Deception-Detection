@@ -1,3 +1,3 @@
-import cv2
-import torch
+import cv2, torch
 from torchvision import models
+

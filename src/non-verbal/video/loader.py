@@ -1,5 +1,6 @@
+import os, cv2
+
 def loader_many(base_paths, target_size=None, max_frames=None):
-    import os, cv2
     videos, labels = [], []
     for base_path in base_paths:
         for label_name in os.listdir(base_path):

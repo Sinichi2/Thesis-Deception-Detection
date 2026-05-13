@@ -1,5 +1,9 @@
-from transformers import pipeline, DistilBertTokenizer, TFDDistilBertModel
+"""
+    
+"""
 
+from transformers import pipeline, DistilBertTokenizer, TFDDistilBertModel
+from torch import bfloat16
 import torch 
 
 classifier = pipeline(
@@ -8,3 +12,4 @@ classifier = pipeline(
     dtype = torch.bfloat16,
     device = 0 # 
 )
+
